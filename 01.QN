@@ -1,0 +1,109 @@
+1.What do you mean by JSP?
+
+Ans : It is a Server Side Technology which is used to Develop Dynamic Web Components which is 
+capable of Generating Dynamic Web Pages.
+
+2.Why JSP was released as a Java based Server Side Technology while Servlet was already available 
+  as a Java based Server Side Technology?
+
+Ans : JSP was developed in such a way that 
+
+		1.People with Minimal Java Knowledge can develop jsp programs
+
+		2.People can use JSP similar like HTML (Tag Based Programming Language)
+
+		3.People can use all the features of Servlet Internally while developing JSP Files.
+
+3.Which Server Side Technology was the inspiration for Sun Microsystem to Develop JSP?
+
+Ans : ASP (Active Server Pages)
+
+4.How a User can use all features of Servlet while Developing a JSP Program?
+
+Ans : --> JSP component/program are internally converted into Servlet component/program during 
+          execution.
+
+      --> Hence Jsp Provides Tag Based Programming Language + Servlet Features
+     
+5.In Modern Web Application Development,For what purpose Servlet and Jsp are used?
+
+Ans : Servlet is used to write Business Logic where as JSP is used to write Presentation Logic.
+
+6.Does Programmer Need Strong Awareness on Java to develop Servlet based Web App?
+
+7.Does Servlet Support Tag Based Programming?
+
+8.Is Servlet Suitable for Non-Java Programmers?
+
+9.What if HTML Code is placed in Servlet Component/Program?
+
+Ans : Complex and error-prone
+
+10.What method is used to Display presentation Logic of Servlet?
+
+Ans : println(String) of PrintWriter Class
+
+11.Difference between System.out.println() and println() in PrintWriter Class?
+
+Ans : 
+
+	S.O.P --> Writes Stream of Bytes.
+
+	pw.println() --> Writes Stream of Characters (Deals with Character En-codings)
+
+12.Is it necessary to configure Servlet Component Mapping with Url-Pattern?
+
+13.Can we place Servlet Component in Public Area of Web Application?
+
+14.Does Servlet Provides Built-in Exception Handling Support?
+
+15.Does Servlet Provides Built-in Objects?
+
+16.What are the Container Created Objects in Servlet Technology?
+
+Ans :	1.request
+
+	2.response
+
+	3.servletConfig
+
+	4.servletContext
+
+17.Can we access Container Created Objects without writing code?
+
+18.What are implicit reference variables? Can we access them without writing code?
+
+Ans : "this","super" are implicit reference variables provided by Programming language hence we 
+      can access them without writing code
+
+19.What is the other name for Implicit Reference Variables?
+
+20.Mention some JVM Created Objects?
+
+Ans : public static void main(String[] args), catch block,try block,finally block,etc...
+
+21.Can we access JVM Created Objects without writing code?
+
+22.For Every Modification done in Servlet Component/Program,should we re-compile the Servlet
+Component and reload the web application?
+
+23.Does JSP Support Tag Based Programming?
+
+24.Does Programmer Need Strong Awareness on Java to develop JSP based Web App?
+
+25.Is JSP Suitable for Non-Java Programmers?
+
+26.Can we place Business Logic and Presentation Logic seperately in JSP?
+
+27.Can we place Business Logic and Presentation Logic seperately in Servlet?
+
+28.Placing HTML Code in JSP leads to Error-Prone Process?
+
+29.How many implicit objects are available in JSP?
+
+30.For Every Modification done in JSP Component/Program,should we re-compile the JSP
+Component and reload the web application?
+
+31.In which area we must place JSP Component in Web Application?
+
+32.Is it necessary to configure Servlet Component Mapping with Url-Pattern?
